@@ -50,7 +50,7 @@ export default function Home() {
       <header className={`topBar ${showTopBar ? "visible" : "hidden"}`}>
         <div className="logo">Baity Corner</div>
       </header>
-
+<br></br>
       {/* Hero Section */}
       <section className="imageWrapper">
         {images.map((img, index) => (
