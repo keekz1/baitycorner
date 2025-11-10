@@ -87,6 +87,13 @@ export default function Home() {
           mouth-watering options.
         </p>
       </section>
+          {/* ✅ Footer Section */}
+      <footer className="footer">
+        <div className="footer-content">
+          <p className="footer-logo">Baity</p>
+          <p>© {new Date().getFullYear()} Baity. All rights reserved.</p>
+        </div>
+      </footer>
     </main>
   );
 }
